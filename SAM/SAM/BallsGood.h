@@ -12,7 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BallsGood : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *sizeMinuts;
 
 @property (weak, nonatomic) IBOutlet UILabel *sizeCount;
 

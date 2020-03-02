@@ -40,7 +40,6 @@
     totalMinuts = 0;
     
     self.summInfo.text = [NSString stringWithFormat:@"0 рублей"];
-    self.minutsInfo.text = [NSString stringWithFormat:@"0 минут"];
     self.ballsInfo.text = [NSString stringWithFormat:@"20 баллов"];
     
     self.buyCoinsOtl.enabled = NO;
@@ -96,7 +95,6 @@
         [self titleButton:totalPrice];
         
     }
-    self.minutsInfo.text = [NSString stringWithFormat:@"%ld минут",totalMinuts];
     
     self.summInfo.text = [NSString stringWithFormat:@"%ld рублей",totalPrice];
     
@@ -112,7 +110,6 @@
     _quantityTokenTwo.text = [NSString stringWithFormat:@"%ld",(long)two];
     [self titleButton:totalPrice];
     
-    self.minutsInfo.text = [NSString stringWithFormat:@"%ld минут",totalMinuts];
     
     self.summInfo.text = [NSString stringWithFormat:@"%ld рублей",totalPrice];
     

@@ -29,7 +29,6 @@
     totalBalls = 220;
     totalMinuts = 0;
     
-    self.infoMinuts.text = [NSString stringWithFormat:@"%ld минут", totalMinuts];
     self.infoBalls.text = [NSString stringWithFormat:@"%ld баллов",totalBalls];
     
     
@@ -55,7 +54,6 @@
     }
     
     
-    self.infoMinuts.text = [NSString stringWithFormat:@"%ld минут", totalMinuts];
     self.infoBalls.text = [NSString stringWithFormat:@"%ld баллов", totalBalls];
     
 }
@@ -75,7 +73,6 @@
 
     }
     
-    self.infoMinuts.text = [NSString stringWithFormat:@"%ld минут", totalMinuts];
     self.infoBalls.text = [NSString stringWithFormat:@"%ld баллов", totalBalls];
     
     

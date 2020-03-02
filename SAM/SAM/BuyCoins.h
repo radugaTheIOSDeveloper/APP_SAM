@@ -24,7 +24,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *buyCoinsOtl;
 - (IBAction)buyCoins:(id)sender;
 
-@property (weak, nonatomic) IBOutlet UILabel *minutsInfo;
 @property (weak, nonatomic) IBOutlet UILabel *summInfo;
 @property (weak, nonatomic) IBOutlet UILabel *ballsInfo;
 

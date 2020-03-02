@@ -17,7 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIButton *actMinus;
 @property (weak, nonatomic) IBOutlet UILabel *scizeBalls;
 
-@property (weak, nonatomic) IBOutlet UILabel *infoMinuts;
 
 @property (weak, nonatomic) IBOutlet UILabel *infoBalls;
 @property (weak, nonatomic) IBOutlet UIButton *getButton;
